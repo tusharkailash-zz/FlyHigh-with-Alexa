@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "Stop_Intent"
+    },
+    {
+      "intent": "SearchFlight"
+    },
+    {
+      "intent": "SearchTimings"
+    },
+    {
+      "slots": [
+        {
+          "name": "flight_num",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "flight_id",
+          "type": "LIST_OF_ID"
+        }
+      ],
+      "intent": "GetFlightDay"
+    },
+    {
+      "slots": [
+        {
+          "name": "Days",
+          "type": "LIST_OF_Days"
+        }
+      ],
+      "intent": "FlightTiming"
+    },
+    {
+      "slots": [
+        {
+          "name": "Source",
+          "type": "AMAZON.US_CITY"
+        },
+        {
+          "name": "Destination",
+          "type": "AMAZON.US_CITY"
+        }
+      ],
+      "intent": "GetFlight"
+    },
+    {
+      "slots": [
+        {
+          "name": "TravelType",
+          "type": "LIST_OF_TravelType"
+        }
+      ],
+      "intent": "TravelIntentType"
+    },
+    {
+      "slots": [
+        {
+          "name": "TravelDate",
+          "type": "AMAZON.DATE"
+        },
+        {
+          "name": "ReturnDate",
+          "type": "AMAZON.DATE"
+        }
+      ],
+      "intent": "twoway"
+    },
+    {
+      "slots": [
+        {
+          "name": "TravelDate",
+          "type": "AMAZON.DATE"
+        }
+      ],
+      "intent": "oneway"
+    }
+  ]
+}

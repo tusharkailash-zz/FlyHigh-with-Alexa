@@ -1,0 +1,66 @@
+AMAZON.HelpIntent Please help
+AMAZON.HelpIntent I need help
+AMAZON.HelpIntent I need help with flight
+AMAZON.HelpIntent I am stuck. Help me
+AMAZON.HelpIntent Help
+Stop_Intent Please stop
+Stop_Intent Stop it
+Stop_Intent Cancel
+Stop_Intent Abort
+Stop_Intent Dismiss
+Stop_Intent Exit
+Stop_Intent Nullify
+SearchFlight I would like to look for flights
+SearchFlight seacrh for flight
+SearchFlight Please show me some flights
+SearchFlight I want to see a flight
+SearchFlight Please show me flight details
+SearchFlight I want information on flights
+SearchTimings I would like to look for my flight departure Time
+SearchTimings check status of my flight
+SearchTimings Show me my flight departure time
+SearchTimings I would like to know my flight departure time
+SearchTimings Please tell me my flight departure time
+SearchTimings What is my status of flight departure time
+GetFlightDay My flight number is {flight_id} {flight_num}
+GetFlightDay {flight_id} {flight_num}
+GetFlightDay The flight id is {flight_id} and flight number is {flight_num}
+GetFlightDay The flight id and number is {flight_id} {flight_num}
+GetFlightDay My flight id and number is {flight_id} {flight_num}
+GetFlightDay {flight_id} is my flight id and {flight_num} is my flight number
+FlightTiming My flight day is on {Days}
+FlightTiming {Days}
+FlightTiming The day is {Days}
+FlightTiming I am traveling on {Days}
+FlightTiming I am traveling {Days}
+FlightTiming I am going on {Days}
+FlightTiming I will travel on {Days}
+FlightTiming I will be traveling on {Days}
+FlightTiming I will be going on {Days}
+GetFlight My origin city is {Source} and the destination is {Destination}
+GetFlight My source is {Source} and the destination is {Destination}
+GetFlight I am travelling from {Source} to {Destination}
+GetFlight I want to travel from {Source} to {Destination}
+GetFlight I will be travelling between {Source} and {Destination}
+GetFlight I may travel from {Source} to {Destination}
+GetFlight I shall travel from {Source} to {Destination}
+GetFlight I would be travelling from {Source} to {Destination}
+TravelIntentType {TravelType} way
+TravelIntentType {TravelType}
+TravelIntentType I want to travel {TravelType} way
+TravelIntentType {TravelType} way please
+TravelIntentType My travel type is {TravelType} way
+TravelIntentType I shall travel {TravelType} way
+TravelIntentType I would like to travel {TravelType} way
+TravelIntentType I may travel {TravelType} way
+twoway I would like to travel on {TravelDate} and return on {ReturnDate}
+twoway I shall travel on {TravelDate} and return on {ReturnDate}
+twoway My stay is from {TravelDate} to {ReturnDate}
+twoway from {TravelDate} to {ReturnDate}
+twoway I need to travel on {TravelDate} and return on {ReturnDate}
+twoway from {TravelDate} to {ReturnDate}
+oneway My travel date is {TravelDate}
+oneway I would like to travel on {TravelDate}
+oneway I shall travel on {TravelDate}
+oneway I will be travelling on {TravelDate}
+oneway {TravelDate}
